@@ -1,0 +1,10 @@
+{
+  "name": "whale-analytics",
+  "version": "0.0.0",
+  "description": "A simple, in-beta analytics engine in node.js",
+  "main": "index.ts",
+  "repository": "https://github.com/lerichardson/whaleanalytics",
+  "author": "Levi Richardson, Archie Baer and contributors",
+  "license": "GPL-3.0",
+  "private": true
+}
