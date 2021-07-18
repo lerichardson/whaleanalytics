@@ -4,7 +4,8 @@
   "description": "A simple, in-beta analytics engine in node.js",
   "main": "index.ts",
   "scripts": {
-    "start": "tsc && node server.js"
+    "start": "tsc && node server.js",
+    "build": "tsc"
   },
   "repository": "https://github.com/lerichardson/whaleanalytics",
   "author": "Levi Richardson and contributors",
