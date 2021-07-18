@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A simple, in-beta analytics engine in node.js",
   "main": "index.ts",
+  "scripts": {
+    "start": "tsc && node server.js"
+  },
   "repository": "https://github.com/lerichardson/whaleanalytics",
   "author": "Levi Richardson and contributors",
   "license": "GPL-3.0",
