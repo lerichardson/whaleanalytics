@@ -8,7 +8,7 @@ I try to fix this by making Whale Analytics, a self-hosted, privacy-friendly ana
 * Doesn't use third-party cookies
 * Is easy to set up and understand
 * Respects the Do Not Track header  
-And, in the future, hopefully use A.I. to help owners understand what works and what doesn't, what users like and don't like.
+~~And, in the future, hopefully use A.I. to help owners understand what works and what doesn't, what users like and don't like.~~ This requires too much data collected
 ## How it works
 When you call the script, server/script.js writes the information needed, like adding a visit, the user's browser type, and amount of time spent to a JSON file.  
 When you go to the dashboard, client/showData.js reads the data and creates a graph. 
