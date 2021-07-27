@@ -2,10 +2,15 @@ import express from 'express';
 const app = express();
 import cors from 'cors';
 
+
 import connection from "./src/db.js";
 
-connection.once('open', () => console.log('Database Connected'))
-connection.on('error', () => console.error('Database Error'))
+try {
+    connection.authenticate();
+    console.log('DB Connected');
+  } catch (error) {
+    console.error('DB Failed:', error);
+  }
 
 // Server settings
 app.use(cors());
@@ -17,9 +22,6 @@ app.get('/', function (req: any, res: any) {
 
 // APIS I LOVE APIS
 
-app.post('/api/v1/visit', function (req: any, res: any) {
-
-});
 
 app.listen(3000, function () {
     console.log('Server running on port 3000');
