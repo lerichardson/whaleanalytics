@@ -4,6 +4,6 @@ dotenv.config();
 
 const sql = new Sequelize(`postgres://postgres:${process.env.DB_PASSWORD}@db.fyipxrvzaupgdtfnwlyy.supabase.co:5432/postgres`);
 
-const connection = sql
+const connection = sql;
 
-export default connection
+export default connection;
